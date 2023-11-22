@@ -1,0 +1,25 @@
+body {
+    position: relative;
+    background-image: url("./news.jpg");
+    background-repeat: no-repeat;
+    background-position: center 85px;
+    background-size: 100% 660px;
+}
+.site-header {
+    position: fixed;
+    top: 0;
+    display: block;
+    width: 100%;
+    background-color: rgb(56, 56, 56);
+}
+.site-main {
+    margin-top: 200px;
+}
+.w-30 {
+    width: 400px;
+}
+.item-link:hover {
+    background-color: rgb(248,249,250);
+    color: #000!important;
+    font-weight: 600;
+}
